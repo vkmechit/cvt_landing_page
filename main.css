@@ -1,0 +1,177 @@
+/* nav {
+    width: 100vw;
+    height: 127px;
+    background-color: #6F6AF7;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 44px;
+    
+}
+
+
+
+nav>div:first-child {
+    font-family: "Delius Unicase";
+    font-size: 61.43px;
+    font-weight: 700;
+    line-height: 78.81px;
+    text-align: left;
+    color:  #FFFFFF;
+    width: 215px;
+
+
+} */
+body {
+    margin: 0px;
+}
+
+nav {
+    height: 127px;
+    width: 1728px;
+    background-color: #6F6AF7;
+    /* position: fixed; */
+    top: 0px;
+    left: 0px;
+    /* width: 100vw; */
+
+
+}
+
+nav>div {
+    font-family: "DM Sans";
+    font-size: 36.43px;
+    font-weight: 400;
+    line-height: 47.43px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-family: "Delius Unicase";
+    font-size: 61.43px;
+    font-weight: 700;
+    line-height: 78.81px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 215px;
+    height: 63px;
+    top: 27px;
+    left: 44px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+}
+
+nav>div:nth-child(2) {
+    width: 102px;
+    height: 33px;
+    top: 42px;
+    left: 412px;
+    position: absolute;
+
+}
+
+nav>div:nth-child(3) {
+    width: 157px;
+    height: 36px;
+    top: 41px;
+    left: 561px;
+    position: absolute;
+
+}
+
+nav>div:nth-child(4) {
+    width: 199px;
+    height: 36px;
+    top: 41px;
+    left: 764px;
+    position: absolute;
+
+}
+
+nav>div:nth-child(5) {
+    width: 89px;
+    height: 36px;
+    top: 41px;
+    left: 1009px;
+    position: absolute;
+
+}
+
+.arrow {
+    width: 7.77px;
+    height: 14px;
+    top: 69.91px;
+    left: 1098px;
+    display: inline-block;
+
+
+}
+
+.search_bar>input {
+    width: 314px;
+    height: 57px;
+    top: 36px;
+    left: 1171px;
+    border-radius: 63px 63px;
+    position: absolute;
+    text-decoration: none;
+    text-align: left;
+    border: none;
+    padding-left: 20px;
+    font-family: "DM Sans";
+    font-size: 24.43px;
+    font-weight: 400;
+    line-height: 31.81px;
+    color: #9F9F9F;
+
+}
+
+.ham {
+    width: 67px;
+    height: 46.61px;
+    top: 38.84px;
+    left: 1608px;
+    position: absolute;
+}
+
+.main {
+    width: 1542px;
+    height: 1695px;
+    top: 289px;
+    left: 101px;
+    position: absolute;
+    background-color: aqua;
+}
+
+.main>img {
+    width: 456px;
+    height: 507px;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    position: relative;
+    display: inline;
+}
+
+.text_area {
+    width: 972px;
+    height: 507px;
+    top: 0px;
+    left: 30px;
+    position: relative;
+
+
+
+}
+.text_area> input{
+    display: inline-block;
+    width: 972px;
+    height: 507px;
+    border-radius: 20px;
+    border: 6px;
+    background-color: #E5D8FF;
+}
